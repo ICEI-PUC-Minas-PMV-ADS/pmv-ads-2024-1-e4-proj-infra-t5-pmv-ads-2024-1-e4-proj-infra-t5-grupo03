@@ -1,23 +1,25 @@
-# TÍTULO DO PROJETO
+# FavGamer
 
-`CURSO`
+`Tecnologia em Análise e Desenv. de Sistemas`
 
-`DISCIPLINA`
+`Projeto: Desenvolvimento de uma Aplicação Distribuída`
 
-`SEMESTRE`
+`2024/01`
 
 Descrever resumidamente, em um ou dois parágrafos, o projeto que está sendo desenvolvido.
 
 ## Integrantes
 
-* Nome completo do aluno 1
-* Nome completo do aluno 2
-* Nome completo do aluno 3
-* Nome completo do aluno 4
+* Guilherme Cunha
+* Leidirene Rodrigues
+* Luana Grazielle
+* Mirian Santos
+* Stephanye Castellano
+* Vanessa Chaves
 
 ## Orientador
 
-* Nome completo do professor 1
+* Pedro Felipe Alves de Oliveira
 
 ## Instruções de utilização
 
