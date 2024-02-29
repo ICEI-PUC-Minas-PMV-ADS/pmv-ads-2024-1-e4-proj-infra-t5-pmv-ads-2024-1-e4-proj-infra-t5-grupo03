@@ -86,38 +86,35 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-001| O sistema deve ser responsivo para rodar em um dispositivos móvel | MÉDIA | 
-|RNF-002| Deve processar requisições do usuário em no máximo 3s |  BAIXA | 
+|RNF-01| A aplicação deve ser compatível com múltiplas plataformas (web e mobile) para garantir acesso em diversos dispositivos.  | Alta  | 
+|RNF-02| O aplicativo deve ser executado em diferentes tamanhos/resoluções de telas.  |  Alta  | 
+|RNF-03| O aplicativo deve fornecer fontes e elementos de interface com tamanho suficiente para garantir a legibilidade em dispositivos móveis.  |  Alta  | 
+|RNF-04| O aplicativo deve ser funcional tanto em conexões Wi-Fi quanto em redes móveis.  |  Alta  | 
+|RNF-05| O site deve ter bom nível de contraste entre os elementos da tela em conformidade.   |  Alta  | 
+|RNF-06| O sistema poderá ser acessível por vários usuários ao mesmo tempo.  |  Alta  | 
+|RNF-07| Deverá ser utilizado banco de dados NoSQL.  |  Alta  | 
+|RNF-08| A aplicação deve respeitar as regras da LGPD (Lei Geral de Proteção de Dados Pessoais).  |  Alta  | 
+|RNF-09| Dados sensíveis devem ser protegidos com medidas de segurança adequadas.   |  Alta  | 
+|RNF-10| O aplicativo deve processar requisições do usuário em tempo razoável para garantir uma boa experiência do usuário.  |  Média  | 
 
-Com base nas Histórias de Usuário, enumere os requisitos da sua solução. Classifique esses requisitos em dois grupos:
-
-- [Requisitos Funcionais
- (RF)](https://pt.wikipedia.org/wiki/Requisito_funcional):
- correspondem a uma funcionalidade que deve estar presente na
-  plataforma (ex: cadastro de usuário).
-- [Requisitos Não Funcionais
-  (RNF)](https://pt.wikipedia.org/wiki/Requisito_n%C3%A3o_funcional):
-  correspondem a uma característica técnica, seja de usabilidade,
-  desempenho, confiabilidade, segurança ou outro (ex: suporte a
-  dispositivos iOS e Android).
-Lembre-se que cada requisito deve corresponder à uma e somente uma
-característica alvo da sua solução. Além disso, certifique-se de que
-todos os aspectos capturados nas Histórias de Usuário foram cobertos.
 
 ## Restrições
 
-O projeto está restrito pelos itens apresentados na tabela a seguir.
+O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 |ID| Restrição                                             |
 |--|-------------------------------------------------------|
-|01| O projeto deverá ser entregue até o final do semestre |
-|02| Não pode ser desenvolvido um módulo de backend        |
+|RE-01| O sistema deve ter um componente para o backend, frontend web e um mobile.  |
+|RE-02| O backend deve se portar como uma API, com rotas e os fronts devem consumir essa API.         |
+|RE-03| O aplicativo disponibilizará apenas o idioma PT-BR.      |
+|RE-04| A primeira etapa do projeto deverá ser entregue até: 03/03/24.        |
+|RE-05| A segunda etapa do projeto deverá ser entregue até: 07/04/24.         |
+|RE-06| A terceira etapa do projeto deverá ser entregue até: 05/05/24.        |
+|RE-07| A quarta etapa do projeto deverá ser entregue até: 02/06/24.      |
+|RE-08| O projeto completo deverá ser entregue até: 23/06/24.       |
+|RE-09| Proibida a terceirização de desenvolvimento do sistema em sua totalidade ou de módulos isolados.       |
+|RE-10| Restrito o projeto não utilizar APIs e/ou Web Services.         |
 
-Enumere as restrições à sua solução. Lembre-se de que as restrições geralmente limitam a solução candidata.
-
-> **Links Úteis**:
-> - [O que são Requisitos Funcionais e Requisitos Não Funcionais?](https://codificar.com.br/requisitos-funcionais-nao-funcionais/)
-> - [O que são requisitos funcionais e requisitos não funcionais?](https://analisederequisitos.com.br/requisitos-funcionais-e-requisitos-nao-funcionais-o-que-sao/)
 
 ## Diagrama de Casos de Uso
 
