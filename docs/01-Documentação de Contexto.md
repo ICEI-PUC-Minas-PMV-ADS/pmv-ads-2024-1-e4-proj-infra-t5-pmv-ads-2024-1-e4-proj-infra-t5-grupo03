@@ -1,46 +1,27 @@
 # Introdução
 
-Texto descritivo com a visão geral do projeto abordado. Inclui o contexto, o problema, os objetivos, a justificativa e o público-alvo do projeto.
+A indústria de jogos eletrônicos experimentou um crescimento exponencial nas últimas décadas, resultando em uma vasta diversidade de títulos disponíveis para os jogadores. Com essa proliferação, surge a necessidade de uma plataforma que permita aos entusiastas acompanharem, avaliar e interagir com os jogos de forma eficiente. O presente projeto propõe o desenvolvimento de uma aplicação distribuída para o acompanhamento de jogos, oferecendo recursos abrangentes, como avaliações, reviews, classificações e a capacidade de marcar os jogos como já jogados, em andamento ou pretendidos.
 
 ## Problema
-Nesse momento você deve apresentar o problema que a sua aplicação deve  resolver. No entanto, não é a hora de comentar sobre a aplicação.
 
-Descreva também o contexto em que essa aplicação será usada, se  houver: empresa, tecnologias, etc. Novamente, descreva apenas o que de  fato existir, pois ainda não é a hora de apresentar requisitos  detalhados ou projetos.
-
-Nesse momento, o grupo pode optar por fazer uso  de ferramentas como Design Thinking, que permite um olhar de ponta a ponta para o problema.
-
-> **Links Úteis**:
-> - [Objetivos, Problema de pesquisa e Justificativa](https://medium.com/@versioparole/objetivos-problema-de-pesquisa-e-justificativa-c98c8233b9c3)
-> - [Matriz Certezas, Suposições e Dúvidas](https://medium.com/educa%C3%A7%C3%A3o-fora-da-caixa/matriz-certezas-suposi%C3%A7%C3%B5es-e-d%C3%BAvidas-fa2263633655)
-> - [Brainstorming](https://www.euax.com.br/2018/09/brainstorming/)
+Atualmente, a falta de uma plataforma unificada para o acompanhamento de jogos dificulta a vida dos jogadores, que muitas vezes precisam recorrer a várias fontes para obter informações sobre seus jogos favoritos. A dispersão dessas informações pode levar a uma experiência fragmentada e, em alguns casos, a avaliações e reviews imprecisos. Portanto, há uma demanda clara por uma solução que centralize esses recursos, proporcionando uma experiência mais integrada e eficiente.
 
 ## Objetivos
 
-Aqui você deve descrever os objetivos do trabalho indicando que o objetivo geral é desenvolver um software para solucionar o problema apresentado acima. 
+- Desenvolver uma aplicação distribuída intuitiva e de fácil navegação para o acompanhamento de jogos. 
 
-Apresente também alguns (pelo menos 2) objetivos específicos dependendo de onde você vai querer concentrar a sua prática investigativa, ou como você vai aprofundar no seu trabalho.
- 
-> **Links Úteis**:
-> - [Objetivo geral e objetivo específico: como fazer e quais verbos utilizar](https://blog.mettzer.com/diferenca-entre-objetivo-geral-e-objetivo-especifico/)
+- Implementar funcionalidades de avaliação e comentários para que os usuários possam compartilhar suas opiniões sobre os jogos. 
+  
+- Incluir um sistema de classificação para facilitar a identificação da qualidade e popularidade dos jogos. 
+
+- Permitir que os usuários marquem os jogos que já jogaram, estão jogando ou pretendem jogar, proporcionando uma visão personalizada da biblioteca de jogos. 
+
+- Oferecer uma experiência de usuário atraente e envolvente, incentivando a interação e a comunidade entre os jogadores. 
 
 ## Justificativa
 
-Descreva a importância ou a motivação para trabalhar com esta aplicação que você escolheu. Indique as razões pelas quais você escolheu seus objetivos específicos ou as razões para aprofundar em certos aspectos do software.
-
-O grupo de trabalho pode fazer uso de questionários, entrevistas e dados estatísticos, que podem ser apresentados, com o objetivo de esclarecer detalhes do problema que será abordado pelo grupo.
-
-> **Links Úteis**:
-> - [Como montar a justificativa](https://guiadamonografia.com.br/como-montar-justificativa-do-tcc/)
+O desenvolvimento desta aplicação se justifica pela crescente necessidade de uma plataforma que simplifique a vida dos jogadores, oferecendo uma abordagem abrangente para o acompanhamento e avaliação de jogos. A falta de uma solução consolidada atualmente leva a uma dispersão de informações, dificultando a tomada de decisões informadas pelos usuários. A proposta deste projeto visa preencher essa lacuna, proporcionando uma experiência centralizada e enriquecedora para os entusiastas de jogos. 
 
 ## Público-Alvo
 
-Descreva quem serão as pessoas que usarão a sua aplicação indicando os diferentes perfis. O objetivo aqui não é definir quem serão os clientes ou quais serão os papéis dos usuários na aplicação. A ideia é, dentro do possível, conhecer um pouco mais sobre o perfil dos usuários: conhecimentos prévios, relação com a tecnologia, relações
-hierárquicas, etc.
-
-Adicione informações sobre o público-alvo por meio de uma descrição textual, diagramas de personas e mapa de stakeholders.
-
-> **Links Úteis**:
-> - [Público-alvo](https://blog.hotmart.com/pt-br/publico-alvo/)
-> - [Como definir o público alvo](https://exame.com/pme/5-dicas-essenciais-para-definir-o-publico-alvo-do-seu-negocio/)
-> - [Público-alvo: o que é, tipos, como definir seu público e exemplos](https://klickpages.com.br/blog/publico-alvo-o-que-e/)
-> - [Qual a diferença entre público-alvo e persona?](https://rockcontent.com/blog/diferenca-publico-alvo-e-persona/)
+O público-alvo desta aplicação inclui gamers de todas as idades e níveis de experiência que desejam uma plataforma única para acompanhar, avaliar e interagir com jogos. Além disso, a aplicação visa atrair desenvolvedores de jogos que desejam receber feedback direto da comunidade, promovendo uma relação mais próxima entre criadores e consumidores. A abrangência do público-alvo inclui desde jogadores casuais até entusiastas dedicados, buscando atender às diversas necessidades da comunidade de jogos.
