@@ -79,14 +79,21 @@ As tabelas que se seguem apresentam os requisitos funcionais e não funcionais q
 
 |ID    | Descrição do Requisito  | Prioridade |
 |------|-----------------------------------------|----|
-|RF-001| Permitir que o usuário cadastre tarefas | ALTA | 
-|RF-002| Emitir um relatório de tarefas no mês   | MÉDIA |
+|RF-001| A aplicação deve permitir que os usuários se cadastrem e façam o login usando e-mail e senha | ALTA | 
+|RF-002| A aplicação deve possibilitar a busca de jogos por diversos critérios   | MÉDIA |
+|RF-003| A aplicação deve oferecer aos usuários a capacidade de avaliar os jogos    | MÉDIA |
+|RF-004| A aplicação deve oferecer a listagem da coleção de jogos do usuário e jogos que ele deseja adicionar a coleção   | ALTA |
+|RF-005| A aplicação deve permitir ver críticas e análises de outros usuários sobre determinado jogo   | BAIXA |
+|RF-006|A aplicação deve disponibilizar ferramentas para os usuários gerenciarem seus perfis  | BAIXA |
+|RF-007| A aplicação deve permitir a visualização de coleção e reviews entre usuários  | BAIXA |
+|RF-008| A aplicação deve oferecer a listagem de lançamentos do mês | BAIXA |
+
 
 ### Requisitos não Funcionais
 
 |ID     | Descrição do Requisito  |Prioridade |
 |-------|-------------------------|----|
-|RNF-01| A aplicação deve ser compatível com múltiplas plataformas (web e mobile) para garantir acesso em diversos dispositivos.  | Alta  | 
+|RNF-01| A aplicação deve ser compatível com múltiplas plataformas (web e mobile) para garantir acesso em diversos dispositivos   | Alta  | 
 |RNF-02| O aplicativo deve ser executado em diferentes tamanhos/resoluções de telas.  |  Alta  | 
 |RNF-03| O aplicativo deve fornecer fontes e elementos de interface com tamanho suficiente para garantir a legibilidade em dispositivos móveis.  |  Alta  | 
 |RNF-04| O aplicativo deve ser funcional tanto em conexões Wi-Fi quanto em redes móveis.  |  Alta  | 
@@ -118,30 +125,7 @@ O projeto está restrito pelos itens apresentados na tabela a seguir:
 
 ## Diagrama de Casos de Uso
 
-O diagrama de casos de uso é o próximo passo após a elicitação de requisitos, que utiliza um modelo gráfico e uma tabela com as descrições sucintas dos casos de uso e dos atores. Ele contempla a fronteira do sistema e o detalhamento dos requisitos funcionais com a indicação dos atores, casos de uso e seus relacionamentos. 
-
-As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de Casos de Uso”.
-
-> **Links Úteis**:
-> - [Criando Casos de Uso](https://www.ibm.com/docs/pt-br/elm/6.0?topic=requirements-creating-use-cases)
-> - [Como Criar Diagrama de Caso de Uso: Tutorial Passo a Passo](https://gitmind.com/pt/fazer-diagrama-de-caso-uso.html/)
-> - [Lucidchart](https://www.lucidchart.com/)
-> - [Astah](https://astah.net/)
-> - [Diagrams](https://app.diagrams.net/)
-
-# Matriz de Rastreabilidade
-
-A matriz de rastreabilidade é uma ferramenta usada para facilitar a visualização dos relacionamento entre requisitos e outros artefatos ou objetos, permitindo a rastreabilidade entre os requisitos e os objetivos de negócio. 
-
-A matriz deve contemplar todos os elementos relevantes que fazem parte do sistema, conforme a figura meramente ilustrativa apresentada a seguir.
-
-![Exemplo de matriz de rastreabilidade](img/02-matriz-rastreabilidade.png)
-
-> **Links Úteis**:
-> - [Artigo Engenharia de Software 13 - Rastreabilidade](https://www.devmedia.com.br/artigo-engenharia-de-software-13-rastreabilidade/12822/)
-> - [Verificação da rastreabilidade de requisitos usando a integração do IBM Rational RequisitePro e do IBM ClearQuest Test Manager](https://developer.ibm.com/br/tutorials/requirementstraceabilityverificationusingrrpandcctm/)
-> - [IBM Engineering Lifecycle Optimization – Publishing](https://www.ibm.com/br-pt/products/engineering-lifecycle-optimization/publishing/)
-
+![Diagrama Casos de Uso](img/useCase.jpg)
 
 # Gerenciamento de Projeto
 
