@@ -28,8 +28,12 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 
 |EU COMO... `PERSONA`| QUERO/PRECISO ... `FUNCIONALIDADE` |PARA ... `MOTIVO/VALOR`                 |
 |--------------------|------------------------------------|----------------------------------------|
-|Usuário do sistema  | Registrar minhas tarefas           | Não esquecer de fazê-las               |
-|Administrador       | Alterar permissões                 | Permitir que possam administrar contas |
+|Jenipher  | encontrar uma plataforma confiável onde possa buscar informações sobre jogos adequados para a idade do meu filho        | garantir que meu filho esteja se divertindo de maneira segura e educativa enquanto joga             |
+|Mattheus Almeida        | encontrar uma comunidade online onde possa obter opiniões e análises confiáveis sobre os jogos mais interessantes que encontro                | diminuir os gastos, investindo em jogos que realmente valem a pena |
+|Enzo Soares  | ter acesso a reviews de meus jogos favoritos           | entender melhor o que funciona e o que não funciona em jogos similares ao que quero desenvolver               |
+|Heloisa Faria       | encontrar uma plataforma onde possa compartilhar minhas opiniões sobre os jogos                | para promover uma mensagem positiva de igualdade de gênero no mundo dos jogos e para fornecer conteúdo valioso e autêntico para meus seguidores  |
+|Rogério Duarte  | Encontrar jogos gratuitos e acessíveis para jogar durante minhas horas de lazer aos finais de semana.          | me divertir e relaxar, sem a necessidade de gastar dinheiro extra em entretenimento            |
+|Fernanda e Victor       | Encontrar jogos cooperativos que possam jogar juntos               | criar conteúdo para seu canal e alcançar seu objetivo de atingir 1 milhão de inscritos em seu canal e continuar a criar conteúdo divertido e relevante para sua audiência  |
 
 Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
 
