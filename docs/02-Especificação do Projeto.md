@@ -8,7 +8,53 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
 
 ## Personas
 
-Pedro Paulo tem 26 anos, é arquiteto recém-formado e autônomo. Pensa em se desenvolver profissionalmente através de um mestrado fora do país, pois adora viajar, é solteiro e sempre quis fazer um intercâmbio. Está buscando uma agência que o ajude a encontrar universidades na Europa que aceitem alunos estrangeiros.
+* `Jenipher Santos`
+   - Idade: 35 anos
+   - História: Mãe solo, seu filho tem 10 anos, trabalha como administradora de uma empresa privada.
+   - Motivações: Sempre busca ser melhor profissionalmente e como mãe.
+   - Frustrações: Ter sempre que dar conta de tudo sozinha.
+   - Aplicativos: Instagram e LinkedIn.
+   - Hobbies, História: Ler, assistir filmes e séries, principalmente comédias românticas. Quando seu filho pede algum jogo, gosta de ter onde buscar informações sobre o jogo na internet, pois seu filho só tem 10 anos, não pode jogar qualquer tipo de jogo.
+     
+* `Mattheus Almeida`
+   - Idade: 25 anos
+   - História: Estudando de Análise e Desenvolvimento de Sistemas, estagiário de backend em uma empresa multinacional.
+   - Motivações: Ser efetivado na empresa que trabalhar e poder comprar os jogos mais interessantes que encontrar.
+   - Frustrações: Iniciou recentemente a vida de morar sozinho e tem medo de não dar conta de todas as despesas. 
+   - Aplicativos: Instagram, Twitch, YouTube, TikTok.
+   - Hobbies, História: Jogos online de computador, assistir animes e qualquer coisa do universo de super-heróis. Gosta sempre se estar antenado ao que as pessoas acham dos jogos.
+     
+* `Enzo Soares`
+   - Idade: 12 anos
+   - História: Está sempre ligado ao mundo dos jogos e começou a estudar desde novo como desenvolver jogos.
+   - Motivações: Desenvolver um jogo nível Skyrim de complexidade e poder integrar a IA com seus jogos.
+   - Frustrações: Ser obrigado a ir para a escola de manhã, se pudesse estudaria a tarde, mas seus pais acham importante o aprendizado de manhã. 
+   - Aplicativos: Instagram, Twitch, YouTube, TikTok.
+   - Hobbies, História: Gosta de ficar vendo reviews e game plays dos seus jogos favoritos para entender o que poderia funcionar no seu jogo ou não. 
+     
+* `Heloisa Faria`
+   - Idade: 31 anos
+   - História: Heloisa sempre gostou de jogos, até que fez disso seu ganha pão. Fazendo lives na Twitch e no Youtube ganhou milhares de seguidores.
+   - Motivações: Mostrar que mulher não precisa ficar sensualizando nas plataformas enquanto joga para ganhar seguidores e poder jogar o que quiser.
+   - Frustrações: Ver outros influenciadores de games homens tendo mais patrocinadores. 
+   - Aplicativos: Instagram, Twitch, YouTube, TikTok.
+   - Hobbies, História: Adora jogar Candy Crush quando ninguém mais está vendo, mas também ama bater em zumbis. Seria legal ter uma plataforma para postar o que acha dos jogos para os seus seguidores terem ideia do que está na sua lista.    
+     
+* `Rogério Duarte`
+   - Idade: 43 anos
+   - História: Casado, pai de dois filhos adolescentes, trabalha como engenheiro civil.
+   - Motivações: Encontrar a família final do dia em casa e poderem jantar juntos. 
+   - Frustrações: Problemas com alguma coisa na obra em que está trabalhando, algum fornecedor ou algo do tipo.  
+   - Aplicativos: Facebook, LinkedIn e Youtube. 
+   - Hobbies, História: Rogério gosta de passar muito tempo com a família, mas tira duas horas por final de semana para jogar jogos gratuitos que encontra nos fóruns da internet.  
+     
+* `Fernanda e Victor`
+   - Idade: 27 e 31 anos
+   - História: Eles trabalham como influenciadores de games, fazem game players de vários jogos, mas o foco é jogos de cooperação. 
+   - Motivações: Poder criar conteúdo divertidos para a internet, focado para crianças e adolescentes e fazer o canal Diário do Casal Gamer chegar em 1 milhão de inscritos.  
+   - Frustrações: Como fazem muita live de roblox para a criançada sentem que demoram mais para crescer do que outros gamers menos nichados. 
+   - Aplicativos: Instagram, Twitch, YouTube, TikTok. 
+   - Hobbies, História: Tem dois gatos, 1 peixe, 1 hamster e a Fernanda é uma amante de plantas e vegana. Adoram passar o tempo assistindo séries e filmes. Estão sempre em busca de jogos cooperativos para jogarem juntos para fazerem conteúdo ou só por diversão em casal.   
 
 Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
 
