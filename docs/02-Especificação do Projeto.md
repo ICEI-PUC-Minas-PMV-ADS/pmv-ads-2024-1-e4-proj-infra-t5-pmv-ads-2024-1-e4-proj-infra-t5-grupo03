@@ -183,13 +183,13 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 ## Gerenciamento de Tempo
 
-Com diagramas bem organizados que permitem gerenciar o tempo nos projetos, o gerente de projetos agenda e coordena tarefas dentro de um projeto para estimar o tempo necessário de conclusão.
+Ter estabelecido quais as atividades são necessárias entregar e o prazo correto, facilita o desenvolvimento organizado e estruturado do projeto, aumentando o desempenho e minimizando os erros e retrabalhos, mediante isso detalhamos todas as atividades a serem entregues no período do projeto, demonstrando de forma visual através do gráfico de Gantt.
 
-![Diagrama de rede simplificado notação francesa (método francês)](img/02-diagrama-rede-simplificado.png)
+![Gerenciamento do tempo](img/gerenciamento do tempo.png)
 
-O gráfico de Gantt ou diagrama de Gantt também é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
+O diagrama de Gantt é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Gráfico de Gantt](img/02-grafico-gantt.png)
+![Diagrama de Gantt](img/Diagrama de Gantt - Atualizado)
 
 ## Gerenciamento de Equipe
 
