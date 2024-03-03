@@ -197,5 +197,7 @@ A gestão do orçamento é uma das etapas mais importantes do projeto, nesta fas
 
 # Apresentação Projeto
 
-![Apresentação_FAVGAMER](img/Apresentação_FAVGAMER.mp4)
-!(img/Apresentação_FAVGAMER.mp4)
+
+https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t5-pmv-ads-2024-1-e4-proj-infra-t5-grupo03/assets/114196258/4eff861f-0876-4f6e-9aa1-e4d24be8e039
+
+
