@@ -1,4 +1,4 @@
-# Especificações do Projeto
+![Gerenciamento do Tempo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t5-pmv-ads-2024-1-e4-proj-infra-t5-grupo03/assets/114196258/6209109e-00d4-4a37-8da7-95fa029948c9)# Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
@@ -185,11 +185,12 @@ De acordo com o PMBoK v6 as dez áreas que constituem os pilares para gerenciar 
 
 Ter estabelecido quais as atividades são necessárias entregar e o prazo correto, facilita o desenvolvimento organizado e estruturado do projeto, aumentando o desempenho e minimizando os erros e retrabalhos, mediante isso detalhamos todas as atividades a serem entregues no período do projeto, demonstrando de forma visual através do gráfico de Gantt.
 
-![Gerenciamento do tempo](img/gerenciamento do tempo.png)
+![Gerenciamento do Tempo](img/02.Gerenciamento_de_tempo.png)
+
 
 O diagrama de Gantt é uma ferramenta visual utilizada para controlar e gerenciar o cronograma de atividades de um projeto. Com ele, é possível listar tudo que precisa ser feito para colocar o projeto em prática, dividir em atividades e estimar o tempo necessário para executá-las.
 
-![Diagrama de Gantt](img/Diagrama de Gantt - Atualizado)
+![Diagrama de Gantt](img/02.Diagrama_de_Gantt.png)
 
 ## Gerenciamento de Equipe
 
