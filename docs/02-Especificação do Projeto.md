@@ -187,7 +187,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/laNutvgs/ATTI84423f9114e3b185216f781446c0db2341A6FCB4/desenvolvimento-de-uma-aplicacao-distribuida) e é apresentado, no estado atual, na figura abaixo: 
 
-![Tela Trello](img/tela_trello.png)
+![Tela Trello](img/Tela_Trello.png)
 
 ## Gestão de Orçamento
 
