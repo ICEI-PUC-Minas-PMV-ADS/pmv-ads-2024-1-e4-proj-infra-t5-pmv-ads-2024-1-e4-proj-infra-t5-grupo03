@@ -1,4 +1,4 @@
-![Gerenciamento do Tempo](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t5-pmv-ads-2024-1-e4-proj-infra-t5-grupo03/assets/114196258/6209109e-00d4-4a37-8da7-95fa029948c9)# Especificações do Projeto
+# Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
