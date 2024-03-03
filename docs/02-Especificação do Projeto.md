@@ -1,6 +1,8 @@
 # Especificações do Projeto
 
 <span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+A aplicação traz a solução para os usuários que são apaixonados por jogos e não querem perder tempo, pois através da mesma o usuário poderá adquirir referencias sobre os jogos, interagir com outros usuários e deixar sua opinião sobre o game.
+
 
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
 
@@ -56,18 +58,6 @@ Apresente uma visão geral do que será abordado nesta parte do documento, enume
    - Aplicativos: Instagram, Twitch, YouTube, TikTok. 
    - Hobbies, História: Tem dois gatos, 1 peixe, 1 hamster e a Fernanda é uma amante de plantas e vegana. Adoram passar o tempo assistindo séries e filmes. Estão sempre em busca de jogos cooperativos para jogarem juntos para fazerem conteúdo ou só por diversão em casal.   
 
-Enumere e detalhe as personas da sua solução. Para tanto, baseie-se tanto nos documentos disponibilizados na disciplina e/ou nos seguintes links:
-
-> **Links Úteis**:
-> - [Rock Content](https://rockcontent.com/blog/personas/)
-> - [Hotmart](https://blog.hotmart.com/pt-br/como-criar-persona-negocio/)
-> - [O que é persona?](https://resultadosdigitais.com.br/blog/persona-o-que-e/)
-> - [Persona x Público-alvo](https://flammo.com.br/blog/persona-e-publico-alvo-qual-a-diferenca/)
-> - [Mapa de Empatia](https://resultadosdigitais.com.br/blog/mapa-da-empatia/)
-> - [Mapa de Stalkeholders](https://www.racecomunicacao.com.br/blog/como-fazer-o-mapeamento-de-stakeholders/)
->
-Lembre-se que você deve ser enumerar e descrever precisamente e personalizada todos os clientes ideais que sua solução almeja.
-
 ## Histórias de Usuários
 
 Com base na análise das personas forma identificadas as seguintes histórias de usuários:
@@ -80,15 +70,6 @@ Com base na análise das personas forma identificadas as seguintes histórias de
 |Heloisa Faria       | encontrar uma plataforma onde possa compartilhar minhas opiniões sobre os jogos                | para promover uma mensagem positiva de igualdade de gênero no mundo dos jogos e para fornecer conteúdo valioso e autêntico para meus seguidores  |
 |Rogério Duarte  | Encontrar jogos gratuitos e acessíveis para jogar durante minhas horas de lazer aos finais de semana.          | me divertir e relaxar, sem a necessidade de gastar dinheiro extra em entretenimento            |
 |Fernanda e Victor       | Encontrar jogos cooperativos que possam jogar juntos               | criar conteúdo para seu canal e alcançar seu objetivo de atingir 1 milhão de inscritos em seu canal e continuar a criar conteúdo divertido e relevante para sua audiência  |
-
-Apresente aqui as histórias de usuário que são relevantes para o projeto de sua solução. As Histórias de Usuário consistem em uma ferramenta poderosa para a compreensão e elicitação dos requisitos funcionais e não funcionais da sua aplicação. Se possível, agrupe as histórias de usuário por contexto, para facilitar consultas recorrentes à essa parte do documento.
-
-> **Links Úteis**:
-> - [Histórias de usuários com exemplos e template](https://www.atlassian.com/br/agile/project-management/user-stories)
-> - [Como escrever boas histórias de usuário (User Stories)](https://medium.com/vertice/como-escrever-boas-users-stories-hist%C3%B3rias-de-usu%C3%A1rios-b29c75043fac)
-> - [User Stories: requisitos que humanos entendem](https://www.luiztools.com.br/post/user-stories-descricao-de-requisitos-que-humanos-entendem/)
-> - [Histórias de Usuários: mais exemplos](https://www.reqview.com/doc/user-stories-example.html)
-> - [9 Common User Story Mistakes](https://airfocus.com/blog/user-story-mistakes/)
 
 ## Modelagem do Processo de Negócio 
 
@@ -194,7 +175,20 @@ O diagrama de Gantt é uma ferramenta visual utilizada para controlar e gerencia
 
 ## Gerenciamento de Equipe
 
-O gerenciamento adequado de tarefas contribuirá para que o projeto alcance altos níveis de produtividade. Por isso, é fundamental que ocorra a gestão de tarefas e de pessoas, de modo que os times envolvidos no projeto possam ser facilmente gerenciados. 
+Para organização e distribuição das tarefas do projeto, a equipe está utilizando o Trello estruturado com as seguintes listas: 
+
+● Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista. 
+
+● A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando. 
+
+● Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+
+● Revisão: Antes de mover para a lista de concluído, revisamos o que foi feito para ver se existe algum erro. 
+
+● Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação. 
+
+O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/laNutvgs/ATTI84423f9114e3b185216f781446c0db2341A6FCB4/desenvolvimento-de-uma-aplicacao-distribuida) e é apresentado, no estado atual, na figura abaixo: 
+
 
 ![Simple Project Timeline](img/02-project-timeline.png)
 
