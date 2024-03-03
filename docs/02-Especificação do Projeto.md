@@ -1,12 +1,10 @@
 # Especificações do Projeto
 
-<span style="color:red">Pré-requisitos: <a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+<a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
+
 A aplicação traz a solução para os usuários que são apaixonados por jogos e não querem perder tempo, pois através da mesma o usuário poderá adquirir referencias sobre os jogos, interagir com outros usuários e deixar sua opinião sobre o game.
 
-
 Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
-
-Apresente uma visão geral do que será abordado nesta parte do documento, enumerando as técnicas e/ou ferramentas utilizadas para realizar a especificações do projeto
 
 ## Personas
 
@@ -189,8 +187,7 @@ Para organização e distribuição das tarefas do projeto, a equipe está utili
 
 O quadro kanban do grupo desenvolvido na ferramenta de gerenciamento de projetos está disponível através da URL (https://trello.com/invite/b/laNutvgs/ATTI84423f9114e3b185216f781446c0db2341A6FCB4/desenvolvimento-de-uma-aplicacao-distribuida) e é apresentado, no estado atual, na figura abaixo: 
 
-
-![Simple Project Timeline](img/02-project-timeline.png)
+![Tela Trello](img/tela_trello.png)
 
 ## Gestão de Orçamento
 
