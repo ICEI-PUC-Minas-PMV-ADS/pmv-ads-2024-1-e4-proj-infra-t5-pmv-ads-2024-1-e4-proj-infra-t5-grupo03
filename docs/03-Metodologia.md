@@ -48,10 +48,11 @@ Discuta como a configuração do projeto foi feita na ferramenta de versionament
 Apresente a divisão de papéis entre os membros do grupo.
 
 Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum como base para definição do processo de desenvolvimento. A equipe está organizada da seguinte maneira:
-- Scrum Master: Felipe Domingos;
-- Product Owner: Rommel Carneiro;
-- Equipe de Desenvolvimento: Pedro Penna, Pedro Ivo, Rodrigo Richard;
-- Equipe de Design: Simone Nogueira.
+- Scrum Master: Mirian Santos de Oliveira;
+- Product Owner: Guilherme Augusto Gomes Cunha;
+- Equipe de Desenvolvimento: Guilherme Augusto Gomes Cunha, Leidirene Rodrigues da Silva Marques, Luana Graziele Martins da Silva Fernandes, Mirian Santos de Oliveira, Stephanye Castellano e Vanessa Lina da Silva Chaves;
+- Equipe de Design: Luana Graziele Martins da Silva Fernandes;
+- QA: Stephanye Castellano.
 
 > **Links Úteis**:
 > - [11 Passos Essenciais para Implantar Scrum no seu Projeto](https://mindmaster.com.br/scrum-11-passos/)
@@ -60,23 +61,22 @@ Exemplificação: A equipe utiliza metodologias ágeis, tendo escolhido o Scrum 
 
 ### Processo
 
-Coloque  informações sobre detalhes da implementação do Scrum seguido pelo grupo. O grupo deverá fazer uso do recurso de gerenciamento de projeto oferecido pelo GitHub, que permite acompanhar o andamento do projeto, a execução das tarefas e o status de desenvolvimento da solução.
- 
-> **Links Úteis**:
-> - [Planejamento e Gestáo Ágil de Projetos](https://pucminas.instructure.com/courses/87878/pages/unidade-2-tema-2-utilizacao-de-ferramentas-para-controle-de-versoes-de-software)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/issues/organizing-your-work-with-project-boards/managing-project-boards/about-project-boards)
-> - [Project management, made simple](https://github.com/features/project-management/)
-> - [Sobre quadros de projeto](https://docs.github.com/pt/github/managing-your-work-on-github/about-project-boards)
-> - [Como criar Backlogs no Github](https://www.youtube.com/watch?v=RXEy6CFu9Hk)
-> - [Tutorial Slack](https://slack.com/intl/en-br/)
+Estamos utilizando o Trello para  organização  e  distribuição  das  tarefas  do  projeto com as seguintes listas:
+> - Backlog: recebe as tarefas a serem trabalhadas e representa o Product Backlog. Todas as atividades identificadas no decorrer do projeto também devem ser incorporadas a esta lista.
+> - A fazer: Esta lista representa o Sprint Backlog. Este é o Sprint atual que estamos trabalhando.
+> - Em andamento: Quando uma tarefa tiver sido iniciada, ela é movida para cá. 
+> - Revisão: Antes de mover para a lista de concluído, revisamos o que foi feito para ver se existe algum erro.
+> - Fase de testes: Outra pessoa da equipe pegará o que foi feito e testará, após o testes pode ir para Concluído ou voltar para Em andamento
+> - Concluído: nesta lista são colocadas as tarefas que passaram pelos testes e controle de qualidade e estão prontos para ser entregues ao usuário. Não há mais edições ou revisões necessárias, ele está agendado e pronto para a ação.
+
 
 ### Ferramentas
 
 As ferramentas empregadas no projeto são:
 
-- Editor de código.
-- Ferramentas de comunicação
-- Ferramentas de desenho de tela (_wireframing_)
+- Editor de código: Visual Studio Code
+- Ferramentas de comunicação: Microsoft Teams, Email, WhatsApp.
+- Ferramentas de desenho de tela: Gimp, Lucidchart
 
 O editor de código foi escolhido porque ele possui uma integração com o sistema de versão. As ferramentas de comunicação utilizadas possuem integração semelhante e por isso foram selecionadas. Por fim, para criar diagramas utilizamos essa ferramenta por melhor captar as necessidades da nossa solução.
 
