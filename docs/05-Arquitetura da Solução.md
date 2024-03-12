@@ -17,11 +17,12 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Diagrama de
 
 ## Modelo ER
 
-O Modelo ER representa através de um diagrama como as entidades (coisas, objetos) se relacionam entre si na aplicação interativa.]
+No modelo abaixo temos os dados que armazenamos no nosso banco de dados(MongoDB) que está atualmente na nuvem pelo MongoDB Atlas e os dados que estão numa API externa, o RAWG.
 
-As referências abaixo irão auxiliá-lo na geração do artefato “Modelo ER”.
+> - [MongoDB Atlas](https://www.mongodb.com/atlas)
+> - [RAWG API de jogos](https://rawg.io/apidocs)
 
-> - [Como fazer um diagrama entidade relacionamento | Lucidchart](https://www.lucidchart.com/pages/pt/como-fazer-um-diagrama-entidade-relacionamento)
+![Modelo ER](img/der.jpg)
 
 ## Esquema Relacional
 
