@@ -37,10 +37,17 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
 
 ## Tecnologias Utilizadas
+# Backend
 
-Descreva aqui qual(is) tecnologias você vai usar para resolver o seu problema, ou seja, implementar a sua solução. Liste todas as tecnologias envolvidas, linguagens a serem utilizadas, serviços web, frameworks, bibliotecas, IDEs de desenvolvimento, e ferramentas.
+| **Análise** | **Design** | **Implementação** |
+| --- | --- | --- |
+| Persistência | Banco de dados não relacional| MongoDB |
+| Persistência | ORM | Waterline |
+| Persistência | Hospedagem | MongoDB Atlas |
+| Back end | Ambiente de execução | NodeJS |
+| Back end | Framework  | Sail JS |
+| Dados | API de dados| RAWG |
 
-Apresente também uma figura explicando como as tecnologias estão relacionadas ou como uma interação do usuário com o sistema vai ser conduzida, por onde ela passa até retornar uma resposta ao usuário.
 
 ## Hospedagem
 
