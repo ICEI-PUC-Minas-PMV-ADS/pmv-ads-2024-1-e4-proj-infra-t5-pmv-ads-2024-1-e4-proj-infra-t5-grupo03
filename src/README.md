@@ -1,11 +1,16 @@
-# Instruções de utilização
+# games-list
 
-## Instalação do Site
+# API Gateway
 
-O site em HTML/CSS/JS é um projeto estático, logo pode ser utilizado tanto em servidores...
+Agora toda requisição devera ser feita ao API Gateway e não ao módulo, o gateway irá fazer a requisição ao módulo correto e retornar! Tudo é feito através da rota POST /makeRequest. Nela você envia ou não o body e ele repassa, no headers você coloca as informações da requisição, sendo elas:
 
-## Histórico de versões
+- method: qual o metodo HTTP você quer utilizar(GET, POST, PUT, DELETE, PATCH);
+- module: qual módulo você deseja chamar;
+- route: qual rota você quer chamar;
+- token: o token de autorização;
 
-### [0.1.0] - DD/MM/AAAA
-#### Adicionado
-- Adicionado ...
+Ainda tem a query de pesquisa em algumas rotas, sendo composta de dois campos:
+
+- searchQuery: a query de pesquisa em si;
+- page: qual a página da pesquisa você quer
+
