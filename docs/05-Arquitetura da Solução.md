@@ -34,7 +34,14 @@ As referências abaixo irão auxiliá-lo na geração do artefato “Esquema Rel
 
 ## Modelo Físico
 
-Entregar um arquivo banco.sql contendo os scripts de criação das tabelas do banco de dados. Este arquivo deverá ser incluído dentro da pasta src\bd.
+Como se trata de um banco não relacional hospedado na nuvem(MongoDB Atlas), não tem como compartilhar um arquivo, mas pode acessar o banco a partir do link: mongodb+srv://admin:E9aetuoxCfsGwpav@cluster0.fqs5xdf.mongodb.net/?retryWrites=true&w=majority
+
+![BD1](img/BD1.jpeg)
+![BD2](img/BD2.jpeg)
+![BD3](img/BD3.jpeg)
+
+PS: a entidade de jogos fica numa API externa
+
 
 ## Tecnologias Utilizadas
 # Backend
