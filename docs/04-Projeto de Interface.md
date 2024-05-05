@@ -9,8 +9,9 @@ Visão geral da interação do usuário pelas telas do sistema e protótipo inte
 
 ## Diagrama de Fluxo
 
-O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto: https://www.figma.com/file/2SSfyFP64x8y0taxMG07K6/Box-Games?type=design&node-id=0-1&mode=design&t=Z8qRvy0Xe2k7xog5-0
+O diagrama apresentado na figura abaixo mostra o fluxo de interação do usuário pelas telas do sistema. Cada uma das telas deste fluxo é detalhada na seção de Wireframes que se segue. Para visualizar o wireframe interativo, acesse o ambiente Figma do projeto: https://www.figma.com/file/2SSfyFP64x8y0taxMG07K6/Box-Games?type=design&node-id=0-1&mode=design&t=Z8qRvy0Xe2k7xog5-0 <br><br>
 
+<img src="img/fluxo_telas.png">
 
 
 ## Wireframes
