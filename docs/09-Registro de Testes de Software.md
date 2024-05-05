@@ -1,12 +1,37 @@
 # Registro de Testes de Software
+Os resultados obtidos nos testes de software realizados são descritos abaixo. 
 
-<span style="color:red">Pré-requisitos: <a href="3-Projeto de Interface.md"> Projeto de Interface</a></span>, <a href="8-Plano de Testes de Software.md"> Plano de Testes de Software</a>
+## Registro de Testes do RF-02
 
-Relatório com as evidências dos testes de software realizados no sistema pela equipe, baseado em um plano de testes pré-definido.
+**CT-02**-Visualizar Filtro de pesquisa<br>
+Conforme apresentado na imagem abaixo, a página principal carrega completamente, apresentando o filtro para pesquisa.<br><br>
+<img src="img/req002.png">
+<br><br>
 
-## Avaliação
+## Registro de Testes do RF-03
 
-Discorra sobre os resultados do teste. Ressaltando pontos fortes e fracos identificados na solução. Comente como o grupo pretende atacar esses pontos nas próximas iterações. Apresente as falhas detectadas e as melhorias geradas a partir dos resultados obtidos nos testes.
+**CT-03**-Visualizar avaliar jogos<br>
+Conforme apresentado nas imagens abaixo, a página principal carrega completamente, apresentando a seção "minha avaliação".<br><br>
+<img src="img/req003.png">
+<br><br>
 
-> **Links Úteis**:
-> - [Ferramentas de Test para Java Script](https://geekflare.com/javascript-unit-testing/)
+## Registro de Testes do RF-05
+
+**CT-05**-Visualizar alimentos da estação<br>
+Conforme apresentado na imagem abaixo, a página principal carrega completamente, apresentando a seção "nota da comunidade".<br><br>
+<img src="img/req005.png">
+<br><br>
+
+## Registro de Testes do RF-06
+
+**CT-06**-Visualição de área para logar<br>
+Conforme apresentado na imagem abaixo, a página principal carrega completamente, apresentando a seção de perfil.<br><br>
+<img src="img/req006.png">
+<br><br>
+
+## Registro de Testes do RF-08
+
+**CT-08**-Visualizar  lançamentos do mês<br>
+Conforme apresentado na imagem abaixo, a página principal carrega completamente, apresentando a seção de "lançamentos".<br><br>
+<img src="img/req008.png">
+<br><br>
