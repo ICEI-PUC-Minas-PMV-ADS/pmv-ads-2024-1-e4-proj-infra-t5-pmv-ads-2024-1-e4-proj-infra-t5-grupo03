@@ -25,7 +25,7 @@ Componente “Home” que leva o usuário ao menu principal. Componente “Lanç
 O bloco conteúdo traz os jogos mais procurados e a avaliação. 
 Rodapé: nome do site, políticas de privacidade e termos e condições.<br><br>
 
-<img src="img/estrutura_site.png"><br><br>
+<img src="img/homepage.png"><br><br>
 
  ## Tela – Jogo
  A tela de jogo apresenta a descrição detalhada do jogo, incluindo informações como nota, tema, ano de lançamento, gênero, modos de jogo e desenvolvedor.<br><br>
