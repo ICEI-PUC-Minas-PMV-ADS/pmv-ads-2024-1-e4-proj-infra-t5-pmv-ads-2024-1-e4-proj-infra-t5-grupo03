@@ -3,11 +3,9 @@ dotenv.config();
 
 module.exports = {
     getAll: async function (req, res) {
-        const searchQuery  = req.headers.searchQuery || req.query;
+        const searchQuery  = req.headers.searchquery || req.query.searchQuery;
         const page = req.headers.page;
-       
-        console.log(page)
-        const url = searchQuery ? `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&search=${encodeURIComponent(searchQuery)}` : `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating`;
+        const url = searchQuery ? `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating&search=${encodeURIComponent(searchQuery)}` : `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating`;
         const options = {
             method: 'GET',
         };
