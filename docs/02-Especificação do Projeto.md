@@ -1,10 +1,9 @@
 # Especificações do Projeto
 
-<a href="1-Documentação de Contexto.md"> Documentação de Contexto</a></span>
 
 A aplicação traz a solução para os usuários que são apaixonados por jogos e não querem perder tempo, pois através da mesma o usuário poderá adquirir referencias sobre os jogos, interagir com outros usuários e deixar sua opinião sobre o game.
 
-Definição do problema e ideia de solução a partir da perspectiva do usuário. É composta pela definição do  diagrama de personas, histórias de usuários, requisitos funcionais e não funcionais além das restrições do projeto.
+
 
 ## Personas
 
