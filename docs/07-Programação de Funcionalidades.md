@@ -1,15 +1,44 @@
 # Programação de Funcionalidades
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="5-Arquitetura da Solução.md"> Arquitetura da Solução</a>
+## HomePage
 
-Implementação do sistema descritas por meio dos requisitos funcionais e/ou não funcionais. Deve relacionar os requisitos atendidos os artefatos criados (código fonte) além das estruturas de dados utilizadas e as instruções para acesso e verificação da implementação que deve estar funcional no ambiente de hospedagem.
+A tela de home-Page mostra vários jogos a partir da API utilizada pelo sistema. Com base na estrutura padrão a barra superior traz a barra de pesquisa e acesso a 3 elementos distintos.Um exemplo da tela é apresentada na Figura abaixo: <br><br> 
 
-Para cada requisito funcional, pode ser entregue um artefato desse tipo
+<img src="img/homepage.png"><br><br>
 
-> **Links Úteis**:
->
-> - [Trabalhando com HTML5 Local Storage e JSON](https://www.devmedia.com.br/trabalhando-com-html5-local-storage-e-json/29045)
-> - [JSON Tutorial](https://www.w3resource.com/JSON)
-> - [JSON Data Set Sample](https://opensource.adobe.com/Spry/samples/data_region/JSONDataSetSample.html)
-> - [JSON - Introduction (W3Schools)](https://www.w3schools.com/js/js_json_intro.asp)
-> - [JSON Tutorial (TutorialsPoint)](https://www.tutorialspoint.com/json/index.htm)
+Requisitos atendidos:<br>
+
+- RF-008 <br> <br>
+
+Estrutura de dados:<br>
+
+<img src="img/hom_cod.png"><br>
+
+
+## Tela – Login
+
+  A tela de login apresenta um formulário com os campos "e-mail" e "senha", além do botão "entrar", para que o usuário autentique sua identidade e obtenha acesso a recursos e funcionalidades específicas dentro do site. Um exemplo da tela é apresentada na Figura abaixo: <br><br> 
+
+  <img src="img/login.png"><br><br>
+
+  Requisitos atendidos:<br>
+
+- RF-001, 006<br> <br>
+
+Estrutura de dados:<br>
+
+  <img src="img/login_cod.png"><br><br>
+
+  ## Tela – Pesquisa
+
+  Componente na Home page que possibilita a busca de jogos por diversos critérios <br><br>
+
+  <img src="img/hom_cod.png"><br>
+
+  Requisitos atendidos:<br>
+
+- RF-002 <br> <br>
+
+Estrutura de dados:<br>
+
+  <img src="img/pesq_cod.png"><br><br>

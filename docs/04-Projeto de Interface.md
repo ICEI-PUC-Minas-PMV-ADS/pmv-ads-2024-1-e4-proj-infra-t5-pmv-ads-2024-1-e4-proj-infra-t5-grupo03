@@ -16,7 +16,7 @@ Conforme o fluxo de telas do projeto, apresentado no item anterior, as telas do 
 <img src="img/estrutura_site.png">
  
  ## HomePage
- A tela de home-Page mostra vários jogos a partir da API utilizada pelo sistema. Com base na estrutura padrão a barra superior traz a barra de pesquisa e acesso a 3 elementos distintos: <b>
+ A tela de home-Page mostra vários jogos a partir da API utilizada pelo sistema. Com base na estrutura padrão a barra superior traz a barra de pesquisa e acesso a 3 elementos distintos: <br>
 Componente “Home” que leva o usuário ao menu principal. Componente “Lançamentos” que direciona os usuários aos últimos jogos lançados. Componente Login que encaminha o usuário à página de login.
 O bloco conteúdo traz os jogos mais procurados e a avaliação. 
 Rodapé: nome do site, políticas de privacidade e termos e condições.<br><br>
