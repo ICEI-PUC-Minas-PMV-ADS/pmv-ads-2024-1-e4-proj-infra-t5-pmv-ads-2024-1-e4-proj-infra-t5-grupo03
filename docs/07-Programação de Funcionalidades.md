@@ -29,11 +29,11 @@ Estrutura de dados:<br>
 
   <img src="img/login_cod.png"><br><br>
 
-  ## Tela – Pesquisa
+  ## Componente– Pesquisa
 
-  Componente na Home page que possibilita a busca de jogos por diversos critérios <br><br>
+  Componente na Home page que possibilita a busca de jogos por diversos critérios, conforma figura abaixo: <br><br>
 
-  <img src="img/hom_cod.png"><br>
+  <img src="img/homepage.png"><br>
 
   Requisitos atendidos:<br>
 
