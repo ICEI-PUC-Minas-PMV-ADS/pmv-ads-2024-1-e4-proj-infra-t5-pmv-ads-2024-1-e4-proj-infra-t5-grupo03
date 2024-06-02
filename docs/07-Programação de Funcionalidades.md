@@ -31,7 +31,7 @@ Estrutura de dados:<br>
 
   ## Componente– Pesquisa
 
-  Componente na Home page que possibilita a busca de jogos por diversos critérios, conforma figura abaixo: <br><br>
+  Componente na Home page que possibilita a busca de jogos por diversos critérios, conforme figura abaixo: <br><br>
 
   <img src="img/homepage.png"><br>
 
