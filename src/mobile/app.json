@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "MeuApp",
+    "slug": "meuapp",
+    "platforms": ["ios", "android", "web"],
+    "version": "1.0.0",
+    "sdkVersion": "44.0.0",
+    "extra": {
+      "API_KEY": "89a94cd31a994552a5f2e17c384207d6",
+      "GATEWAY_API_URL": "http://localhost:3000", // Exemplo, substitua pelo seu URL real
+      "AUTH_TOKEN": "12345",
+      "NODE_ENV": "development",
+      "TOKEN": "asncashcbasb127182ckajsn",
+      "MONGO_URL": "mongodb+srv://admin:E9aetuoxCfsGwpav@cluster0.fqs5xdf.mongodb.net/database?retryWrites=true&w=majority",
+      "FROM_EMAIL_HOST": "",
+      "FROM_EMAIL_PORT": "",
+      "FROM_EMAIL": "",
+      "EMAIL_PASSWORD": "",
+      "HOST_FRONT": "localhost:3000",
+      "USERS_MODULE_URL": "http://localhost:3001/",
+      "EVALUATIONS_MODULE_URL": "http://localhost:3002/",
+      "COLLECTIONS_MODULE_URL": "http://localhost:3003/",
+      "GAMES_MODULE_URL": "http://localhost:3004/"
+    },
+    "ios": {
+      "bundleIdentifier": "com.meuapp"
+    },
+    "android": {
+      "package": "com.meuapp"
+    }
+  }
+}
