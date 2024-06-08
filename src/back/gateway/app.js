@@ -1,54 +1,73 @@
-/**
- * app.js
- *
- * Use `app.js` to run your app without `sails lift`.
- * To start the server, run: `node app.js`.
- *
- * This is handy in situations where the sails CLI is not relevant or useful,
- * such as when you deploy to a server, or a PaaS like Heroku.
- *
- * For example:
- *   => `node app.js`
- *   => `npm start`
- *   => `forever start app.js`
- *   => `node debug app.js`
- *
- * The same command-line arguments and env vars are supported, e.g.:
- * `NODE_ENV=production node app.js --port=80 --verbose`
- *
- * For more information see:
- *   https://sailsjs.com/anatomy/app.js
- */
+const express = require('express');
+const bodyParser = require('body-parser');
+const cors = require('cors');
+require('dotenv').config();
+const app = express();
+const port = 1337;
+
+app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({ extended: true }));
 
 
-// Ensure we're in the project directory, so cwd-relative paths work as expected
-// no matter where we actually lift from.
-// > Note: This is not required in order to lift, but it is a convenient default.
-process.chdir(__dirname);
+app.use(cors());
 
 
+app.post('/makeRequest', async (req, res) => {
+    if(!req.headers.token){
+        return res.status(401).json({message: "No token"});
+    };
+    if(req.headers.token !== process.env.AUTH_TOKEN){
+        return res.status(401).json({message: "Wrong token"});
+    }
+    try {
+       
+        const module = req.headers.module;
+        const route = req.headers.route;
+        if (!module || !route) {
+            res.status(422);
+            return res.json({ message: 'Nenhum módulo/rota encontrado!' })
+        };
 
-// Attempt to import `sails` dependency, as well as `rc` (for loading `.sailsrc` files).
-var sails;
-var rc;
-try {
-  sails = require('sails');
-  rc = require('sails/accessible/rc');
-} catch (err) {
-  console.error('Encountered an error when attempting to require(\'sails\'):');
-  console.error(err.stack);
-  console.error('--');
-  console.error('To run an app using `node app.js`, you need to have Sails installed');
-  console.error('locally (`./node_modules/sails`).  To do that, just make sure you\'re');
-  console.error('in the same directory as your app and run `npm install`.');
-  console.error();
-  console.error('If Sails is installed globally (i.e. `npm install -g sails`) you can');
-  console.error('also run this app with `sails lift`.  Running with `sails lift` will');
-  console.error('not run this file (`app.js`), but it will do exactly the same thing.');
-  console.error('(It even uses your app directory\'s local Sails install, if possible.)');
-  return;
-}//-•
+        const { searchQuery, page } = req.query;
+        const options = {
+            method: req.headers.method,
+            headers: {
+                token: process.env.AUTH_TOKEN,
+                searchQuery: searchQuery,
+                page: page ?? 1
+            }
+        };
+        if (req.headers.method !== 'GET') {
+            options.body = JSON.stringify(req.body)
+        }
+        switch (module) {
+            case 'users':
+                const responseUsers = await fetch(process.env.USERS_MODULE_URL + route, options);
+                res.status(responseUsers.status);
+                return res.json(await responseUsers.json());
+            case 'games':
+                const responseGames = await fetch(process.env.GAMES_MODULE_URL + route, options);
+                res.status(responseGames.status);
+                return res.json(await responseGames.json());
+            case 'collections':
+                const responseCollections = await fetch(process.env.COLLECTIONS_MODULE_URL + route, options);
+                res.status(responseCollections.status);
+                return res.json(await responseCollections.json());
+            case 'evaluations':
+                const responseEvaluations = await fetch(process.env.GAMES_MODULE_URL + route, options);
+                res.status(responseEvaluations.status);
+                return res.json(await responseEvaluations.json());
+            default:
+                res.status(404);
+                return res.json({ message: 'Nenhum módulo encontrado!' })
 
+        };
+    } catch (err) {
+        console.log(err);
+        return res.status(500);
+    }
+});
 
-// Start server
-sails.lift(rc('sails'));
+app.listen(port, () => {
+    console.log(`Servidor rodando na porta ${port}`);
+});
