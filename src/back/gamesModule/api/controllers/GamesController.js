@@ -5,8 +5,8 @@ module.exports = {
     getAll: async function (req, res) {
         const searchQuery  = req.headers.searchquery || req.query.searchQuery;
         const page = req.headers.page;
-        const url = searchQuery ? `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating&search=${encodeURIComponent(searchQuery)}` : `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating`;
-        const options = {
+        const hasSearchQuery = searchQuery && searchQuery !== 'undefined';
+        const url = hasSearchQuery ? `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating&search=${encodeURIComponent(searchQuery)}` : `https://rawg.io/api/games?token&key=${process.env.API_KEY}&page=${page || 1}&ordering=-rating`;const options = {
             method: 'GET',
         };
 
