@@ -1,40 +1,28 @@
-import { GATEWAY_API_URL, AUTH_TOKEN } from '@env';
+import axios from 'axios'
 
-const api = (module, route) => {
-  if (!module || !route) throw new Error('Módulo e rota são obrigatórios');
+const api = (module, route, method, data) => {
+  if (!module || !route) throw new Error('Módulo e rota são obrigatórios')
 
-  const makeRequest = async (url, method = 'GET', data = null, headers = {}) => {
-    const requestOptions = {
-      method: method,
+  // if (data) {
+  //   requestOptions.body = JSON.stringify(data);
+  // }
+  console.log(process.env.GATEWAY_API_URL)
+  const http = axios.post(
+    process.env.GATEWAY_API_URL ?? 'http://localhost:1337/makeRequest',
+    data,
+    {
       headers: {
-        ...headers,
-        'Content-Type': 'application/json',
-        token: AUTH_TOKEN,
+        token: process.env.AUTH_TOKEN ?? '12345',
         module: module,
         route: route,
+        method: method
       },
-    };
-
-    if (data) {
-      requestOptions.body = JSON.stringify(data);
     }
 
-    try {
-      const response = await fetch(`${GATEWAY_API_URL}`, requestOptions);
-      const responseData = await response.json();
-      return responseData;
-    } catch (error) {
-      console.error('API request error:', error);
-      throw new Error('Falha na requisição API');
-    }
-  };
 
-  return {
-    get: (url, headers = {}) => makeRequest(url, 'GET', null, headers),
-    post: (url, data, headers = {}) => makeRequest(url, 'POST', data, headers),
-    put: (url, data, headers = {}) => makeRequest(url, 'PUT', data, headers),
-    delete: (url, data, headers = {}) => makeRequest(url, 'DELETE', data, headers),
-  };
-};
+  )
+  return http.data || http;
+}
 
-export { api };
+export { api }
+
