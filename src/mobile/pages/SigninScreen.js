@@ -1,25 +1,39 @@
-import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
+import { View, Text, TextInput, TouchableOpacity, StyleSheet, Button } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import { api } from '../components/Api';
+import React, { useRef, useEffect } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
+import Toast from 'react-native-toast-message';
 
 const SigninScreen = ({ navigation }) => {
-  const handleLogin = () => {
-    // Lógica para autenticar o usuário
-    console.log('Login button pressed');
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
+  const handleLogin = async () => {
+    try {
+      const email = emailRef.current.value;
+      const password = passwordRef.current.value;
+      const response = await api('users', 'login', 'POST', { email, password });
+      await AsyncStorage.setItem('user', response.data.user.id);
+      navigation.navigate('AreaLogada');
+    } catch (error) {
+      Toast.show({
+        type: 'error',
+        text1: '❌ Erro no login',
+        text2: '🛑 Email e/ou senha errados!'
+      });
+    }
   };
 
+  useEffect(async () => {
+    const user = await AsyncStorage.getItem('user');
+    if (user) {
+      navigation.navigate('Logout');
+    };
+
+  })
+  
   const handleForgotPassword = () => {
-    // Lógica para lidar com esqueceu sua senha
     console.log('Forgot Password button pressed');
-  };
-
-  const handleGoogleLogin = () => {
-    // Lógica para login com Google
-    console.log('Login with Google button pressed');
-  };
-
-  const handleFacebookLogin = () => {
-    // Lógica para login com Facebook
-    console.log('Login with Facebook button pressed');
   };
 
   const handleSignUp = () => {
@@ -37,12 +51,14 @@ const SigninScreen = ({ navigation }) => {
           keyboardType="email-address"
           autoCapitalize="none"
           autoCorrect={false}
+          ref={emailRef}
         />
         <TextInput
           style={styles.input}
           placeholder="Senha"
           placeholderTextColor="#999"
           secureTextEntry
+          ref={passwordRef}
         />
         <TouchableOpacity onPress={handleForgotPassword}>
           <Text style={styles.forgotPassword}>Esqueceu sua senha?</Text>
@@ -50,19 +66,11 @@ const SigninScreen = ({ navigation }) => {
         <TouchableOpacity style={styles.loginButton} onPress={handleLogin}>
           <Text style={styles.loginText}>Entrar</Text>
         </TouchableOpacity>
-        <Text style={styles.orText}>ou continue com...</Text>
-        <View style={styles.socialLogin}>
-          <TouchableOpacity onPress={handleGoogleLogin}>
-            <Icon name="google" size={24} color="#DB4437" style={styles.socialIcon} />
-          </TouchableOpacity>
-          <TouchableOpacity onPress={handleFacebookLogin}>
-            <Icon name="facebook" size={24} color="#4267B2" style={styles.socialIcon} />
-          </TouchableOpacity>
-        </View>
         <TouchableOpacity onPress={handleSignUp}>
           <Text style={styles.signUpText}>Ainda não tem conta? Cadastre-se aqui</Text>
         </TouchableOpacity>
       </View>
+      <Toast ref={(ref) => Toast.setRef(ref)} />
     </View>
   );
 };
@@ -99,12 +107,12 @@ const styles = StyleSheet.create({
     marginBottom: 10,
   },
   loginButton: {
-    backgroundColor: '#007BFF', 
+    backgroundColor: '#007BFF',
     paddingVertical: 10,
     borderRadius: 5,
     alignItems: 'center',
-    marginTop: 5, 
-    width: '50%', 
+    marginTop: 5,
+    width: '50%',
     alignSelf: 'center',
   },
   loginText: {

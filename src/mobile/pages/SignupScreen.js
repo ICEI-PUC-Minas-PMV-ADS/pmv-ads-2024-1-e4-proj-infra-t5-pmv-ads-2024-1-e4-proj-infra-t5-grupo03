@@ -1,26 +1,52 @@
-import React from 'react';
+import React, { useRef, useEffect } from 'react';
 import { View, Text, TextInput, TouchableOpacity, StyleSheet } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import Toast from 'react-native-toast-message';
+import { api } from '../components/Api';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const SignupScreen = ({ navigation }) => {
+
+  const emailRef = useRef(null);
+  const passwordRef = useRef(null);
+  const nicknameRef = useRef(null);
+  const passwordConfirmationRef = useRef(null);
   const handleLogin = () => {
     navigation.navigate('Signin');
   };
 
-  const handleSignup = () => {
-    // Implemente aqui a lógica para realizar o cadastro do usuário
-    // Pode enviar os dados para o servidor ou realizar validações localmente
-    console.log('Realizar cadastro');
-  };
+  const handleSignup = async () => {
+    if (!emailRef.current.value || !passwordRef.current.value || !nicknameRef.current.value || !passwordConfirmationRef.current.value) {
+      Toast.show({
+        type: 'error',
+        text1: '❌ Erro no cadastro',
+        text2: '🛑 Todos os campos são necessários'
+      });
+    } else if (passwordRef.current.value !== passwordConfirmationRef.current.value) {
+      Toast.show({
+        type: 'error',
+        text1: '❌ Erro no cadastro',
+        text2: '🛑 Senhas não coincidem'
+      })
+    } else {
+      const response = await api('users', 'users', 'POST', {
+        email: emailRef.current.value,
+        password: passwordRef.current.value,
+        nickname: nicknameRef.current.value
+      });
 
-  const handleGoogleLogin = () => {
-    // Lógica para login com Google
-    console.log('Login com Google');
-  };
-
-  const handleFacebookLogin = () => {
-    // Lógica para login com Facebook
-    console.log('Login com Facebook');
+      if (response.data.nickname == nicknameRef.current.value) {
+        Toast.show({
+          type: 'error',
+          text1: '✅ Cadastro realizado com sucesso',
+          text2: '🎮 Redirecionando...'
+        });
+        setTimeout(async () => {
+          await AsyncStorage.setItem('user', response.data.id);
+          navigation.navigate('AreaLogada');
+        }, 3000);
+      }
+    }
   };
 
   return (
@@ -29,17 +55,11 @@ const SignupScreen = ({ navigation }) => {
       <View style={styles.form}>
         <TextInput
           style={styles.input}
-          placeholder="Nome"
+          placeholder="Apelido"
           placeholderTextColor="#999"
           autoCapitalize="words"
           autoCorrect={false}
-        />
-        <TextInput
-          style={styles.input}
-          placeholder="Usuário"
-          placeholderTextColor="#999"
-          autoCapitalize="none"
-          autoCorrect={false}
+          ref={nicknameRef}
         />
         <TextInput
           style={styles.input}
@@ -48,38 +68,31 @@ const SignupScreen = ({ navigation }) => {
           keyboardType="email-address"
           autoCapitalize="none"
           autoCorrect={false}
+          ref={emailRef}
         />
         <TextInput
           style={styles.input}
           placeholder="Senha"
           placeholderTextColor="#999"
           secureTextEntry
+          ref={passwordRef}
         />
         <TextInput
           style={styles.input}
           placeholder="Confirme sua senha"
           placeholderTextColor="#999"
           secureTextEntry
+          ref={passwordConfirmationRef}
         />
-        {/* Botão de Cadastrar */}
+
         <TouchableOpacity style={styles.signupButton} onPress={handleSignup}>
           <Text style={styles.signupText}>Cadastrar</Text>
         </TouchableOpacity>
-        {/* Texto de Já tem conta? Entre aqui */}
         <TouchableOpacity onPress={handleLogin}>
           <Text style={styles.signInText}>Já tem conta? Entre aqui</Text>
         </TouchableOpacity>
-        {/* Texto "ou continue com..." e botões de login social */}
-        <Text style={styles.orText}>ou continue com...</Text>
-        <View style={styles.socialLogin}>
-          <TouchableOpacity style={styles.socialButton} onPress={handleGoogleLogin}>
-            <Icon name="google" size={24} color="#DB4437" style={styles.socialIcon} />
-          </TouchableOpacity>
-          <TouchableOpacity style={styles.socialButton} onPress={handleFacebookLogin}>
-            <Icon name="facebook" size={24} color="#4267B2" style={styles.socialIcon} />
-          </TouchableOpacity>
-        </View>
       </View>
+      <Toast ref={(ref) => Toast.setRef(ref)} />
     </View>
   );
 };
