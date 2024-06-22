@@ -1,7 +1,21 @@
 import { View, Text, TouchableOpacity, StyleSheet, TextInput } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome';
+import React, { useRef, useState } from 'react';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const Header = ({ navigation }) => {
+  const searchRef = useRef(null);
+  const [reloadKey, setReloadKey] = useState(0);
+  const search = async () => {
+    const searchValue = searchRef.current.value;
+    if(searchValue === ''){
+      await AsyncStorage.removeItem('search');
+    } else {
+      await AsyncStorage.setItem('search', searchValue);
+    };
+    setReloadKey(prevKey => prevKey + 1);
+    navigation.navigate('Home', {key: reloadKey});
+  };
   const navigateToHome = () => {
     navigation.navigate('Home');
   };
@@ -14,6 +28,10 @@ const Header = ({ navigation }) => {
     navigation.navigate('Signin');
   };
 
+  const navigateToAreaLogada = () => {
+    navigation.navigate('AreaLogada');
+  };
+
   return (
     <View style={styles.header}>
       <View style={styles.leftContainer}>
@@ -24,14 +42,22 @@ const Header = ({ navigation }) => {
         <TouchableOpacity onPress={navigateToLancamentos}>
           <Text style={styles.menuText}>Lançamentos</Text>
         </TouchableOpacity>
+        <TouchableOpacity onPress={navigateToAreaLogada}>
+          <Text style={styles.menuText}>Minha coleção</Text>
+        </TouchableOpacity>
       </View>
 
       <View style={styles.rightContainer}>
+
         <TextInput
           style={styles.searchInput}
           placeholder="Pesquisar jogo..."
-          placeholderTextColor="#999"
+          placeholderTextColor="orange"
+          ref={searchRef}
         />
+        <TouchableOpacity onPress={search}>
+          <Icon name="search" size={24} color="orange" />
+        </TouchableOpacity>
         <TouchableOpacity onPress={navigateToSignin}>
           <Icon name="user" size={24} color="gray" />
         </TouchableOpacity>
@@ -71,12 +97,12 @@ const styles = StyleSheet.create({
   searchInput: {
     height: 30,
     width: 120,
-    borderColor: 'gray',
+    borderColor: 'orange',
     borderWidth: 1,
     borderRadius: 5,
     paddingHorizontal: 10,
     marginRight: 10,
-    color: 'black',
+    color: 'white',
   },
 });
 

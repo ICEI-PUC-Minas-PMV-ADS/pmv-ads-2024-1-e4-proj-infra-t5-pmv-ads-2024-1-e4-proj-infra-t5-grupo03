@@ -3,23 +3,23 @@ import Icon from 'react-native-vector-icons/FontAwesome';
 
 const Footer = () => {
   const handleFacebookPress = () => {
-    Linking.openURL('https://www.facebook.com'); // URL do Facebook aqui
+    Linking.openURL('https://www.facebook.com'); 
   };
 
   const handleInstagramPress = () => {
-    Linking.openURL('https://www.instagram.com'); // URL do Instagram aqui
+    Linking.openURL('https://www.instagram.com'); 
   };
 
   const handleTwitterPress = () => {
-    Linking.openURL('https://www.twitter.com'); // URL do Twitter aqui
+    Linking.openURL('https://www.twitter.com'); 
   };
 
   const handleGithubPress = () => {
-    Linking.openURL('https://www.github.com'); // URL do GitHub aqui
+    Linking.openURL('https://www.github.com'); 
   };
 
   const handleYoutubePress = () => {
-    Linking.openURL('https://www.youtube.com'); // URL do YouTube aqui
+    Linking.openURL('https://www.youtube.com'); 
   };
 
   return (
@@ -55,7 +55,7 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0, 0, 0, 0.7)',
   },
   text: {
-    color: 'gray',
+    color: 'orange',
   },
   socialIcons: {
     flexDirection: 'row',
