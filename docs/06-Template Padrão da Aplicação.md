@@ -1,7 +1,5 @@
 # Template Padrão da Aplicação
 
-<span style="color:red">Pré-requisitos: <a href="2-Especificação do Projeto.md"> Especificação do Projeto</a></span>, <a href="3-Projeto de Interface.md"> Projeto de Interface</a>, <a href="4-Metodologia.md"> Metodologia</a>
-
 As telas do sistema apresentam uma estrutura comum que é apresentada abaixo. Nesta estrutura, existem 3 grandes blocos, descritos a seguir. São eles: Cabeçalho - local onde são dispostos elementos fixos de identidade (logo). Conteúdo - apresenta o conteúdo da tela em questão. Rodapé: informações sobre o site. <br><br>
 
 <img src="img/estrutura_site.png">
