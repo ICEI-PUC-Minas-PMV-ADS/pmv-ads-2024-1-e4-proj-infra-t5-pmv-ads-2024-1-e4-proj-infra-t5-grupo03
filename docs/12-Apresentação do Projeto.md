@@ -10,7 +10,8 @@ Nome e marca do projeto
 
 ## Identidade Visual (Marca, Design)
 
-O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do contexto da solução proposta, de forma a manter a temática do problema.
+![image](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t5-pmv-ads-2024-1-e4-proj-infra-t5-grupo03/assets/53917285/54c79efb-095d-4cbb-afb4-f54ca1fd61a8)
+
 
 > **Links Úteis**:
 > - [10 dicas de design para slides](https://rockcontent.com/blog/design-para-slides/)
@@ -20,6 +21,9 @@ O grupo deve ter o cuidado em utilizar figuras, imagens, e cores dentro do conte
 ## Conjunto de Slides (Estrutura)
 
 O grupo deve distribuir de forma coerente o conteúdo a ser apresentado, dentro do tempo determinado. Importante ressaltar a importância da descrição clara de todo o andamento do projeto, insumos gerados e requisitos atendidos.
+
+[Apresentacao_BoxGames.pptx](https://github.com/user-attachments/files/15948585/Apresentacao_BoxGames.pptx)
+
  
 > **Links Úteis**:
 > - [A regra 10-20-30 para apresentações de sucesso](https://revistapegn.globo.com/Noticias/noticia/2014/07/regra-10-20-30-para-apresentacoes-de-sucesso.html)
