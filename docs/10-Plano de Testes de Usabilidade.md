@@ -61,3 +61,16 @@ Para cada tarefa do participante poderemos medir: eficácia, eficiência e satis
 Aqui estão as atividades a serem realizadas pelos participantes, que serão cuidadosamente observadas:
 
 <img src="img/CTU01.png">
+<img src="img/CTU02.png">
+<img src="img/CTU03.png">
+<img src="img/CTU04.png">
+<img src="img/CTU05.png">
+<img src="img/CTU06.png">
+<img src="img/CTU07.png">
+<img src="img/CTU08.png">
+
+## Análise do teste e resultados
+
+Para registro será utilizada uma tabela conforme exemplo abaixo:
+
+<img src="img/Analise.png">
