@@ -13,4 +13,8 @@ Viva a experiência da mais nova aplicação de games, que promete revolucionar 
 
 Uma breve apresentação da nossa aplicação realizada pela parceria de todos os integrantes do grupo. 
 
+Na versão em ppt
 [Apresentacao_BoxGames.pptx](https://github.com/user-attachments/files/15948585/Apresentacao_BoxGames.pptx)
+
+Na versões de vídeo
+[https://drive.google.com/file/d/1XnzKhk7DxM4wcEL8hqPukVwxhuLxRXYA/view?usp=drive_link](https://github.com/ICEI-PUC-Minas-PMV-ADS/pmv-ads-2024-1-e4-proj-infra-t5-pmv-ads-2024-1-e4-proj-infra-t5-grupo03/tree/main/presentation)
