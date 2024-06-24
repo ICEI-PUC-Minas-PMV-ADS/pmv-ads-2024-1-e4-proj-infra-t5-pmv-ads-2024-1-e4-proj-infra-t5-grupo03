@@ -59,3 +59,5 @@ Para cada tarefa do participante poderemos medir: eficácia, eficiência e satis
 
 ### Serão acompanhadas de perto as seguintes tarefas: observação direta, medição e avaliação.
 Aqui estão as atividades a serem realizadas pelos participantes, que serão cuidadosamente observadas:
+
+<img src="img/CTU01.png">
